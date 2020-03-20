@@ -1,4 +1,4 @@
-FROM crystalmatrix/crystal-matrix-base:latest
+FROM devaccent/crystal-matrix-base:latest
 
 MAINTAINER "Alexandru Berce" <alex@devaccent.com>
 
