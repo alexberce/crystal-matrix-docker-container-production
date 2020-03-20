@@ -12,7 +12,7 @@ RUN composer install --prefer-dist --no-scripts --no-dev --no-autoloader && rm -
 
 COPY . .
 
-RUN echo "ServerName crystal-matrix.com" >> /etc/httpd/conf/httpd.conf
+RUN echo "ServerName api.crystal-matrix.com" >> /etc/httpd/conf/httpd.conf
 
 # Finish composer
 RUN composer dump-autoload --no-scripts --no-dev --optimize
